@@ -1,0 +1,28 @@
+# Trabajos de estudiantes a calificar
+entradas/*
+!entradas/.gitkeep
+
+# Reportes con notas de estudiantes
+reporte/*
+!reporte/.gitkeep
+
+# Ejemplos calificados por el profesor
+reglas/buenosTrabajos/*
+!reglas/buenosTrabajos/.gitkeep
+reglas/malosTrabajos/*
+!reglas/malosTrabajos/.gitkeep
+
+# Rúbricas (quita esta línea si son tuyas y quieres compartirlas)
+reglas/rubricas/*.pdf
+
+# Criterios generados del profesor (quita esta línea si quieres publicarlos)
+reglas/criterios-*.md
+
+# Secretos y archivos del sistema
+.env
+.env.*
+*.key
+.DS_Store
+__pycache__/
+*.pyc
+.claude/settings.local.json
